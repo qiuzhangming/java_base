@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit;
  * 因争夺资源而造成的一种互斥等待的现象，
  * 若无外力干涉那他们都将无法推进下去
  *
- * 1. jps -l 找到进程
- * 2. jstack
+ * 1. jps -l 找到进程编号
+ * 2. jstack 进程编号
  *
  * @Date 2019/9/11 10:48
  * @Created by joe
